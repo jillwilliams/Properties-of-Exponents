@@ -30,3 +30,11 @@ const myProblem3 = () => {
 const myCalc3 = () => {
     document.getElementById("demo3").innerHTML = myProblem3();
 }
+
+const myProblem4 = () => {
+    var answ = "Turn the exponent positive and switch the term to the other side of the fraction! That way you don't have to do any work.";
+        return answ;
+};
+const myCalc4 = () => {
+    document.getElementById("demo4").innerHTML = myProblem4();
+}
