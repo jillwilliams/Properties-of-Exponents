@@ -1,0 +1,122 @@
+/* magenta, azure, yellow */
+body {
+    margin: 25px 25px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Architects Daughter";
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px aquamarine;
+    color: magenta;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px aquamarine;
+    color: magenta;
+}
+#div1 {
+    width: 30%;
+    height: auto;
+    margin: 15px 35%;
+    border: 1px aquamarine solid;
+    outline: 1px black solid;
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 1.5rem;
+}
+#div2 {
+    width: 80%;
+    height: auto;
+    margin: 15px 10%;
+    border: 1px aquamarine solid;
+    outline: 1px black solid;
+    text-align: center;
+    padding: 15px;
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
+#div3 {
+    width: 50%;
+    height: auto;
+    margin: 15px 25%;
+    border: 1px aquamarine solid;
+    outline: 1px black solid;
+    text-align: center;
+    padding: 15px;
+    background-color: lemonchiffon;
+    font-size: 1.5rem;
+}
+#div4 {
+    width: 50%;
+    height: auto;
+    margin: 15px 25%;
+    border: 1px aquamarine solid;
+    outline: 1px black solid;
+    text-align: center;
+    padding: 15px;
+    background-color: lemonchiffon;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic7 {
+    width: 40%;
+    height: auto;
+    margin: 15px 30%;
+    border: 1px black solid;
+}
+#answ1, #answ2, #answ3 {
+    width: 20%;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin: 15px 40%;
+    border: 1px black solid;
+    outline: 1px hotpink solid;
+    background-color: lemonchiffon;
+    font-family: "Architects Daughter";
+    text-align: center;
+}
+#myBtn {
+    width: 20%;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin: 15px 40%;
+    border: 1px black solid;
+    outline: 1px hotpink solid;
+    background-color: aquamarine;
+    font-family: "Architects Daughter";
+}
+#demo, #demo2, #demo3 {
+    width: 18%;
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 14px;
+    margin: 15px 40%;
+    border: 1px black solid;
+    outline: 1px hotpink solid;
+    background-color: lemonchiffon;
+    font-family: "Architects Daughter";
+    text-align: center;
+}
+#demo3 {
+    width: 30%;
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 14px;
+    margin: 15px 35%;
+    border: 1px black solid;
+    outline: 1px hotpink solid;
+    background-color: lemonchiffon;
+    font-family: "Architects Daughter";
+    text-align: center;
+}
+iframe {
+    margin: 15px 33%;
+        border: 1px black solid;
+    outline: 1px hotpink solid;
+}
+footer {
+    text-align: center;
+    font-size: 1rem;
+}

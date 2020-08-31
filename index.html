@@ -1,0 +1,128 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+    Unicode="U+1F334, UTF-8: F0 9F 8C B4" 
+    Unicode= "U+1F332, UTF-8: F0 9F 8C B2" 
+    Unicode= "U+00A9"  
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+1F440, UTF-8: F0 9F 91 80"
+    Unicode="U+2C6D, UTF-8: E2 B1 AD"
+    Unicode="U+1D6FD, UTF-8: F0 9D 9B BD"
+    Unicode="U+30FB, UTF-8: E3 83 BB">
+    <title>Property of Exponents</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Quicksand|Architects+Daughter|Caveat|Kalam|Shadows+Into+Light|Fresca|Patrick+Hand|" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Exponents">
+    <meta name="keywords" content="Properties of Exponents">
+    <meta name="author" content="JK Williams">
+</head>
+<body>
+    <div id="div1">
+        <h1>
+            Properties of Exponents
+        </h1>
+    </div>
+    <div id="div2">
+        <p>
+            In this module we will cover the Properties of Exponents. 
+        </p>
+        <div id="div3">
+            Exponents are a large part of mathematics and you need to memorize each of the rules.
+        </div>
+        <div id="div4">
+            Rules for Working with Exponents
+        </div>
+        <div id="div3">
+            Let "a" be a real number:<br>
+            a<sup>n</sup> = a x a x a......  n times<br>
+            a<sup>0</sup> = 1<br>
+            a<sup>-n</sup> = 1/a<sup>+n</sup><br>
+        </div>
+        <div id="div3">
+            Product of Powers:<br>(a)<sup>m</sup>・(a)<sup>n</sup> = a<sup>m + n</sup><br>
+        </div>
+        <div id="div3">
+            Power of a Power:<br>(a<sup>m</sup>)<sup>n</sup> = a<sup>m・n </sup>
+        </div>
+        <div id="div3">
+            Power of a Product:<br>(ab)<sup>m</sup> = a<sup>m</sup>・b<sup>m</sup>
+        </div>
+        <div id="div3">
+            Quotient of Powers:<br>a<sup>m</sup>/ a<sup>n</sup> = a<sup>m - n</sup>
+        </div>
+        <div id="div3">
+            Power of a Quotient:<br> (a/b)<sup>m</sup> = a<sup>m</sup> / b<sup>m</sup>
+        </div>
+    </div>
+    <div id="div2">
+        Let's look at a visual way to interpret exponent rules:<br>
+        Simplify: 
+        x<sup>3</sup>y<sup>2</sup>(x<sup>3</sup>)<sup>2</sup><br>can be modeled using shapes:<br>
+        <img src="images/pic1.png" alt="ex" id="pic1" />
+    </div>
+    <div id="div2">
+        Example 2: Simplify<br>
+        x<sup>2</sup>y<sup>4</sup>(y<sup>2</sup>)<sup>3</sup><br>
+        <img src="images/pic2.png" alt="ex2" id="pic2" />
+    </div>
+    <div id="div2">
+        Example 3: Simplify<br>
+        x<sup>4</sup>(y<sup>3</sup>)<sup>2</sup>(z<sup>2</sup>)<sup>3</sup>
+        <img src="images/pic3.png" alt="ex3" id="pic3" />
+    </div>
+    <div id="div2">
+        Example 4: Simplify<br>
+        x<sup>2</sup>y<sup>3</sup>(x<sup>2</sup>)<sup>4</sup>z<sup>4</sup>
+        <img src="images/pic4.png" alt="ex4" id="pic4" />
+    </div>
+    <div id="div2">
+        Example 5: Simplify<br>
+        x<sup>3</sup>y<sup>4</sup>(y<sup>2</sup>)<sup>3</sup>z<sup>2</sup><br>
+        Solution:<br>
+        Group like terms: x<sup>3</sup>y<sup>4</sup>y<sup>2</sup>y<sup>2</sup>y<sup>2</sup>z<sup>2</sup><br>
+        Combine like terms:
+        x<sup>3</sup>y<sup>10</sup>z<sup>2</sup> *Answer
+    </div>
+    <div id="div2">
+        Example 6: Simplify<br>
+        x<sup>0</sup>(yz)<sup>3</sup><br>
+        <img src="images/pic5.png" alt="ex5" id="pic5" />
+    </div>
+    <div id="div2">
+        Example 7: Simplify<br>
+        (x<sup>2</sup>/y<sup>3</sup>)<sup>3</sup><br>
+        <img src="images/pic7.png" alt="ex 7" id="pic7" />
+    </div>
+    <div id="div2">
+        Now you try a few examples:<br>
+        (x<sup>2</sup>)<sup>4</sup>(y<sup>3</sup>)<sup>2</sup>z<sup>4</sup><br>
+        Use the caret key (^) to type in your exponents.<br>Do not leave empty spaces between the terms.<br>
+        <input type="text" alt="try1" id="answ1"><br>
+        <button type="submit" id="myBtn" onclick="myCalc()">Submit</button><br>
+        <p id="demo"></p>
+    </div>
+    <div id="div2">
+        Simplify:<br>
+        (x<sup>2</sup>y<sup>4</sup>)<sup>5</sup>(z<sup>3</sup>)<sup>2</sup><br>
+        <input type="text" alt="try2" id="answ2"><br>
+        <button type="submit" id="myBtn" onclick="myCalc2()">Submit</button><br>
+        <p id="demo2"></p>
+    </div>
+    <div id="div2">
+        Simplify:<br>
+        (x<sup>3</sup>/y<sup>2</sup>)<sup>5</sup>(z<sup>3</sup>)<sup>4</sup><br>
+        <input type="text" alt="try3" id="answ3"><br>
+        <button type="submit" id="myBtn" onclick="myCalc3()">Submit</button><br>
+        <p id="demo3"></p>
+    </div><hr>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g5ZGDNxJwxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    </p>
+    <script src="script.js"></script>
+    <footer>
+        ©2020 All Things Math<br>All Rights Reserved
+    </footer>
+</body>
+</html>
+    
